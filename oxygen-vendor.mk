@@ -288,7 +288,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/lib64/libmtservice.so:system/lib64/libmtservice.so \
     vendor/xiaomi/oxygen/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/xiaomi/oxygen/proprietary/lib64/libtasft_jni.so:system/lib64/libtasft_jni.so \
-    vendor/xiaomi/oxygen/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \	
+    vendor/xiaomi/oxygen/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/xiaomi/oxygen/proprietary/priv-app/Launcher3/Launcher3.apk:system/priv-app/Launcher3/Launcher3.apk \
     vendor/xiaomi/oxygen/proprietary/vendor/bin/LKCore:system/vendor/bin/LKCore \
     vendor/xiaomi/oxygen/proprietary/vendor/bin/esepmdaemon:system/vendor/bin/esepmdaemon \
