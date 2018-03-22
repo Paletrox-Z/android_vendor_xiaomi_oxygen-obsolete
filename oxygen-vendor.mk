@@ -121,6 +121,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/lib64/libmorpho_groupshot.so:system/lib64/libmorpho_groupshot.so \
     vendor/xiaomi/oxygen/proprietary/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
     vendor/xiaomi/oxygen/proprietary/lib64/libmorpho_panorama.so:system/lib64/libmorpho_panorama.so \
+    vendor/xiaomi/oxygen/proprietary/priv-app/Launcher3/Launcher3.apk:system/priv-app/Launcher3/Launcher3.apk \
+    vendor/xiaomi/oxygen/proprietary/priv-app/Symphony/Symphony.apk:system/priv-app/Symphony/Symphony.apk \
     vendor/xiaomi/oxygen/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:system/vendor/lib/hw/activity_recognition.msm8953.so \
     vendor/xiaomi/oxygen/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
