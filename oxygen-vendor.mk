@@ -1451,6 +1451,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/xiaomi/oxygen/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/xiaomi/oxygen/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
+    vendor/xiaomi/oxygen/proprietary/etc/dpm/nsrm/media_profiles.xml:system/etc/dpm/nsrm/media_profiles.xml \
     vendor/xiaomi/oxygen/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/xiaomi/oxygen/proprietary/etc/drc/drc_cfg_5.1.txt:system/etc/drc/drc_cfg_5.1.txt \
     vendor/xiaomi/oxygen/proprietary/etc/drc/drc_cfg_AZ.txt:system/etc/drc/drc_cfg_AZ.txt \
@@ -1472,6 +1473,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
     vendor/xiaomi/oxygen/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/xiaomi/oxygen/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
+    vendor/xiaomi/oxygen/proprietary/etc/permissions/android.hardware.camera.full.xml:system/etc/permissions/android.hardware.camera.full.xml \
+    vendor/xiaomi/oxygen/proprietary/etc/permissions/android.hardware.camera.raw.xml:system/etc/permissions/android.hardware.camera.raw.xml \
     vendor/xiaomi/oxygen/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/xiaomi/oxygen/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/oxygen/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -1508,6 +1511,26 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/oxygen/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/xiaomi/oxygen/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/xiaomi/oxygen/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libadsprpc_app_N.so:system/lib64/libadsprpc_app_N.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libAndroidJniUtilsJni.so:system/lib64/libAndroidJniUtilsJni.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libfacebeautification.so:system/lib64/libfacebeautification.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libfilterframework_jni.so:system/lib64/libfilterframework_jni.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libgcam.so:system/lib64/libgcam.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libgcam_swig_jni.so:system/lib64/libgcam_swig_jni.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libgyrostabilization-jni.so:system/lib64/libgyrostabilization-jni.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libhalide_hexagon_host_app.so:system/lib64/libhalide_hexagon_host_app.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libjni_faceutil.so:system/lib64/libjni_faceutil.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libjni_imgutil.so:system/lib64/libjni_imgutil.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libjni_jpegutil.so:system/lib64/libjni_jpegutil.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libJniUtilsJni.so:system/lib64/libJniUtilsJni.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libjni_yuvutil.so:system/lib64/libjni_yuvutil.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/liblensoffsetcalculation-jni.so:system/lib64/liblensoffsetcalculation-jni.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/liblightcycle.so:system/lib64/liblightcycle.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libnativehelper_compat_libc++.so:system/lib64/libnativehelper_compat_libc++.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/librefocus.so:system/lib64/librefocus.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/librsjni.so:system/lib64/librsjni.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libsmartburst-jni.so:system/lib64/libsmartburst-jni.so \
+    vendor/xiaomi/oxygen/proprietary/lib64/libvision_face_jni.so:system/lib64/libvision_face_jni.so \
     vendor/xiaomi/oxygen/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/xiaomi/oxygen/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/xiaomi/oxygen/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
